@@ -5,11 +5,11 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
   state: {
-    name: '中姜'
+    name: '1000'
   },
   mutations: {
     changeName(state) {
-      state.name = '小姜';
+      state.name = '2000';
     }
   }
 })

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <h1>父亲</h1>
-    <p>name: {{ name }}</p>
+    <h1>单据申请</h1>
+    <p>计划金额: {{ name }}</p>
     <hr>
     <Child1 :name="name" @ChildOneClick="handleParentClick" />
     <hr>
@@ -16,7 +16,7 @@ import Child2 from './Child2';
 export default {
   data() {
     return {
-      name: '大姜'
+      name: '1000'
     }
   },
   methods: {

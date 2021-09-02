@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>孩子1</h1>
-    <p>name: {{ $store.state.name }}</p>
-    <button @click="handleChildOneClick">按钮</button>
+    <h1>审核单据</h1>
+    <p>实际金额: {{ $store.state.name }}</p>
+    <button @click="handleChildOneClick">刷新金额</button>
   </div>
 </template>
 
