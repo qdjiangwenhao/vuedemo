@@ -3,8 +3,9 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <router-view></router-view>
     <router-link to="/">首页</router-link> |
-    <router-link to="/router1">路由1</router-link>
-    <router-link to="/router2">路由2</router-link>
+    <router-link to="/router1">echarts路由</router-link>|
+    <router-link to="/router2">路由2</router-link>|
+    <router-link to="/vuex">vuex测试</router-link>
   </div>
 </template>
 
