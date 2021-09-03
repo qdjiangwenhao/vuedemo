@@ -1,11 +1,13 @@
 <template>
   <div id="app">
+    <hr>
     <h1>单据申请</h1>
     <p>计划金额: {{ name }}</p>
     <hr>
     <Child1 :name="name" @ChildOneClick="handleParentClick" />
     <hr>
     <Child2 :name="name" />
+    <hr>
   </div>
 </template>
 

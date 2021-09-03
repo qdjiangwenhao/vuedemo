@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <router-view></router-view>
     <router-link to="/">首页</router-link> |
     <router-link to="/router1">echarts路由</router-link>|
