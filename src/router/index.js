@@ -6,6 +6,7 @@ import HelloWorld from '../components/HelloWorld'
 import Echarts from '../components/echarts'
 import Ebuild from '../components/ebuild'
 import Parent from '../components/vuex/Parent'
+import Axios from '../components/axios'
 Vue.use(VueRouter);
 const routes = [
   {
@@ -23,6 +24,10 @@ const routes = [
   {
     path: '/vuex',
     component: Parent
+  },
+  {
+    path:'/axios',
+    component:Axios
   }
 ]
 

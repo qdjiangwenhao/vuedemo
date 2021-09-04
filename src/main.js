@@ -10,19 +10,27 @@ import echarts from 'echarts'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css'
 
-import { Button, Row,Col} from "element-ui";
-
+import {
+  Button,
+  Row,
+  Col
+} from "element-ui";
+//引入预处理器less
 import less from 'less'
+//引入axios
+import axios from 'axios'
 Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false
 Vue.use(ElementUI);
-
 
 Vue.use(Button);
 Vue.use(Row);
 Vue.use(Col);
 
 Vue.use(less);
+
+Vue.prototype.$axios = axios
+
 new Vue({
   render: h => h(App),
   router,
