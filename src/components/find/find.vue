@@ -4,8 +4,8 @@
     <el-button type="primary" @click="toHome">首页</el-button>
     <el-button type="success" @click="toEcharts">echarts相关</el-button>
     <el-button type="info" @click="toVuex">vuex相关</el-button>
-    <el-button type="warning">警告按钮</el-button>
-    <el-button type="danger">危险按钮</el-button>
+    <el-button type="warning" @click="toEbuild">element布局</el-button>
+    <el-button type="danger" @click="toEbuild">element布局2</el-button>
   </el-row>
 </template>
 
@@ -22,6 +22,9 @@ export default {
     },
     toVuex() {
       this.$router.push("/vuex");
+    },
+    toEbuild(){
+      this.$router.push("/ebuild")
     }
   },
 };

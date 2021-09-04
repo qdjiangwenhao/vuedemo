@@ -10,8 +10,9 @@ import echarts from 'echarts'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css'
 
-import { Button, Row} from "element-ui";
+import { Button, Row,Col} from "element-ui";
 
+import less from 'less'
 Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false
 Vue.use(ElementUI);
@@ -19,9 +20,13 @@ Vue.use(ElementUI);
 
 Vue.use(Button);
 Vue.use(Row);
+Vue.use(Col);
+
+Vue.use(less);
 new Vue({
   render: h => h(App),
   router,
   store,
-  echarts
+  echarts,
+  less
 }).$mount('#app')
