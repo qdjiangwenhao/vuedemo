@@ -1,7 +1,7 @@
 <template>
   <div class="router1">
-    <img src="../assets/echarts.png">
-    <div id="myChart" :style="{ width: '400px', height: '400px' }"></div>
+    <img src="../assets/echarts.png" />
+    <div id="myChart" class="myChart"></div>
   </div>
 </template>
 
@@ -42,4 +42,14 @@ export default {
 </script>
 
 <style scoped>
+.myChart {
+  position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 240px;
+	width: 240px;
+}
 </style>

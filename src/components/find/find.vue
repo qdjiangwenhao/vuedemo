@@ -1,5 +1,5 @@
 <template>
-  <el-row style="margin-top: 100px">
+  <el-row  class="find">
     <!-- <el-button>默认按钮</el-button> -->
     <el-button type="primary" @click="toHome">首页</el-button>
     <el-button type="success" @click="toEcharts">echarts相关</el-button>
@@ -33,5 +33,13 @@ export default {
 };
 </script>
 
-<style>
+<style lang="less">
+.find{
+ position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
 </style>
