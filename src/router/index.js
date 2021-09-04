@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 
 import HelloWorld from '../components/HelloWorld'
 
-import Router1 from '../components/router1'
+import Echarts from '../components/echarts'
 import Router2 from '../components/router2'
 import Parent from '../components/vuex/Parent'
 Vue.use(VueRouter);
@@ -13,8 +13,8 @@ const routes = [
     component: HelloWorld
   },
   {
-    path: '/router1',
-    component: Router1
+    path: '/echarts',
+    component: Echarts
   },
   {
     path: '/router2',

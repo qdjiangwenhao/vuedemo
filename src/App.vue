@@ -1,18 +1,15 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <router-view></router-view>
-    <router-link to="/">首页</router-link> |
-    <router-link to="/router1">echarts路由</router-link>|
-    <router-link to="/router2">路由2</router-link>|
-    <router-link to="/vuex">vuex测试</router-link>
+    <find></find>
   </div>
 </template>
 
 <script>
+import find from './components/find/find.vue'
 export default {
   name: "App",
-  components: {},
+  components: {find},
 };
 </script>
 

@@ -1,13 +1,13 @@
 <template>
   <div class="router1">
-    <h3>在vue中使用echarts</h3>
-    <div id="myChart" :style="{ width: '600px', height: '600px' }"></div>
+    <img src="../assets/echarts.png">
+    <div id="myChart" :style="{ width: '400px', height: '400px' }"></div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "router1",
+  name: "echarts",
   data() {
     return {};
   },
